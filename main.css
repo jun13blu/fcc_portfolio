@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+nav {
+    background-color: black;
+    padding: 5px 0;
+    display: table;
+    width: 100%;
+}
+
+nav a{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-name {
+    margin: 0 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.8em;
+}
+
+.site-name .blue {
+    color: dodgerblue;
+}
+
+.nav-link {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+nav ul li {
+    padding: 0 5px;
+    margin: 0;
+    margin-top: -5px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        color: lightgrey;
+        transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: dodgerblue;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    background-color: black;
+    background: url(https://unsplash.it/1000/400?random&blur) no-repeat center;
+    background-size: cover;
+    height: 20em;
+    margin: 0;
+    padding: 0;
+}
+
+header .white-layer {
+    display: table;
+    height: inherit;
+    width: inherit;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    display: table-cell;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    color: #111;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.2)
+}
+
+header h1 small {
+    font-size: 0.6em;
+}
+
+/*about*/
+
+#about {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, dodgerblue, lightskyblue);
+}
+
+#about h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: 200;
+    padding: 10px 0;
+}
+
+.row-3 {
+    width: 100%;
+    padding: 0 1.25%;
+    margin: 0;
+}
+
+.row-3 .col {
+    display: inline-block;
+    width: 30%;
+    padding: 1.25%;
+    margin: 0;
+}
+
+.row-3 .col img{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.row-3 .col h3 {
+    text-align: center;
+    color: paleturquoise;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+.row-3 .col p {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    padding: 5px 0;
+}
